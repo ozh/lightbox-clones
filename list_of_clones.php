@@ -15,8 +15,19 @@ $scripts = array (
         'class'     => '',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
     ),
      */
-     
-     array(
+    array(
+        'name'      => 'jsOnlyLightbox',  // name
+        'url'       => 'http://jslightbox.felixhagspiel.de/',  // url
+        'size'      => '8Kb',  // size of js only
+        'lib'       => '-',  // library dependency & size
+        'totalsize' => '8Kb',  // total js size
+        'images'    => 'yes',  // supports images? Yes/No
+        'sets'      => 'yes',  // supports sets of images? Yes/No
+        'other'     => 'no, only images so far',  // other objects supported? Some text
+        'class'     => 'nolib gallery images ie8 responsive groups CSS3',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
+    ),
+
+    array(
         'name'      => 'EasyBox',   // name
         'url'       => 'http://code.google.com/p/easybox/',    // url
         'size'      => '14.5',   // size of js only
