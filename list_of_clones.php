@@ -24,7 +24,7 @@ $scripts = array (
         'images'    => 'yes',  // supports images? Yes/No
         'sets'      => 'yes',  // supports sets of images? Yes/No
         'other'     => 'no, only images so far',  // other objects supported? Some text
-        'class'     => 'nolib gallery images ie8 responsive groups CSS3',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
+        'class'     => 'nolib images sets',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
     ),
 
     array(
