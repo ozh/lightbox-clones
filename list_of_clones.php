@@ -2,7 +2,7 @@
 
 $scripts = array (
 
-    /*
+    /****
     array(
         'name'      => '',  // name
         'url'       => '',  // url
