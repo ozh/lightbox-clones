@@ -3,7 +3,7 @@
 $scripts = array (
 
     /*
-     array(
+    array(
         'name'      => '',  // name
         'url'       => '',  // url
         'size'      => '',  // size of js only
@@ -14,7 +14,8 @@ $scripts = array (
         'other'     => '',  // other objects supported? Some text
         'class'     => '',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
     ),
-     */
+    */
+    
     array(
         'name'      => 'jsOnlyLightbox',  // name
         'url'       => 'http://jslightbox.felixhagspiel.de/',  // url
