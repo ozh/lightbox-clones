@@ -17,18 +17,6 @@ $scripts = array (
     */
     
     array(
-        'name'      => 'Fancybox',  // name
-        'url'       => 'http://fancybox.net',  // url
-        'size'      => '29Kb',  // size of js only
-        'lib'       => 'jQuery',  // library dependency & size
-        'totalsize' => '29Kb',  // total js size
-        'images'    => 'yes',  // supports images? Yes/No
-        'sets'      => 'yes',  // supports sets of images? Yes/No
-        'other'     => 'Iframes, inline content, and videos',  // other objects supported? Some text
-        'class'     => 'ajax flash iframes images inline jquery sets video',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
-    ),
-    
-    array(
         'name'      => 'jsOnlyLightbox',  // name
         'url'       => 'http://jslightbox.felixhagspiel.de/',  // url
         'size'      => '8Kb',  // size of js only
@@ -605,15 +593,15 @@ $scripts = array (
     ),
     
     array(
-        'name'      => 'FancyBox',
-        'class'     =>'jquery images sets',
-        'url'       =>'http://fancy.klade.lv/',
-        'size'      =>'12.3',
-        'lib'       =>'jQuery (94k)',
-        'totalsize' =>'103.6',
-        'images'    =>'Yes',
-        'sets'      =>'Yes',
-        'other'     =>'Inline content, iframe'
+        'name'      => 'Fancybox',  // name
+        'url'       => 'http://fancybox.net',  // url
+        'size'      => '29Kb',  // size of js only
+        'lib'       => 'jQuery',  // library dependency & size
+        'totalsize' => '29Kb',  // total js size
+        'images'    => 'yes',  // supports images? Yes/No
+        'sets'      => 'yes',  // supports sets of images? Yes/No
+        'other'     => 'Iframes, inline content, and videos',  // other objects supported? Some text
+        'class'     => 'ajax flash iframes images inline jquery sets video',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
     ),
     
     array(
