@@ -17,6 +17,18 @@ $scripts = array (
     */
     
     array(
+        'name'      => 'Fancybox',  // name
+        'url'       => 'http://fancybox.net',  // url
+        'size'      => '29Kb',  // size of js only
+        'lib'       => 'jQuery',  // library dependency & size
+        'totalsize' => '29Kb',  // total js size
+        'images'    => 'yes',  // supports images? Yes/No
+        'sets'      => 'yes',  // supports sets of images? Yes/No
+        'other'     => 'Iframes, inline content, and videos',  // other objects supported? Some text
+        'class'     => 'ajax flash iframes images inline jquery sets video',  // tags from: nolib jquery proto moo yui images sets iframes inline ajax video flash
+    ),
+    
+    array(
         'name'      => 'jsOnlyLightbox',  // name
         'url'       => 'http://jslightbox.felixhagspiel.de/',  // url
         'size'      => '8Kb',  // size of js only
